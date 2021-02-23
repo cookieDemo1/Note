@@ -1,5 +1,13 @@
 ### ES6
 
+```js
+// 循环数组
+var checkbox = [1,2,3,4]  
+for(var i =0, c; c=checkbox[i++];){
+    console.log(c)
+  }
+```
+
 ##### 1.对象的析构赋值
 
 - delete obj.name        delete删除对象中的属性
